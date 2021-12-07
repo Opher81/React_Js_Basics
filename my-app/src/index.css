@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+body{
+  background: #00093d ;
+  color: antiquewhite;
+}
+
+.bookList {
+  width: 90vw;
+  max-width: 150px;
+  margin: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.book {
+  background: rgb(1, 43, 43);
+  border-radius: 1rem;
+}
+
+.book-img {
+  width: 200px;
+}
